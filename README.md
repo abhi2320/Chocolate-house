@@ -1,6 +1,6 @@
-####Chocolate House Management System
+**Chocolate House Management System**
 
-The Chocolate House Management System is a Python-based web application designed to manage:
+__The Chocolate House Management System is a Python-based web application designed to manage:__
 
 1. Seasonal Flavor Offerings
 2. Ingredient Inventory
