@@ -4,7 +4,8 @@
 
 1. Seasonal Flavor Offerings
 2. Ingredient Inventory
-3. Customer Flavor Suggestions and Allergy Concerns
+3. Customer Flavor Suggestions and Allergy Concerns.
+
 This application leverages Flask for the backend, SQLite for data storage, and HTML for frontend. It is simple to use and helps streamline chocolate house operations.
 
 ## Features
@@ -33,23 +34,36 @@ pip install -r requirements.txt
 
 
 ## API Endpoints
-Endpoint |	Method |	Description
-/api/flavors	| GET |	Retrieve all seasonal flavors.
-/api/flavors	| POST	| Add a new seasonal flavor.
-/api/inventory | GET	| Retrieve inventory details.
-/api/inventory	| POST |	Add a new ingredient.
-/api/inventory/<id>	| PUT |	Update inventory details.
-/api/suggestions	| POST |	Submit a customer suggestion.
+Endpoint Method	Description
+
+
+/api/flavors GET	Retrieve all seasonal flavors.
+
+/api/flavors	POST	Add a new seasonal flavor.
+
+/api/inventory GET	Retrieve inventory details.
+
+/api/inventory	POST Add a new ingredient.
+
+/api/inventory/<id>	PUT	Update inventory details.
+
+/api/suggestions	POST	Submit a customer suggestion.
 
 
 ## Project Structure
 
  app.py               # Main application code
+ 
  instance/            # Contains SQLite database file
+ 
  templates/
-   index.html       # Frontend HTML template
+ 
+   - index.html       # Frontend HTML template
+   
  Dockerfile           # Docker configuration file
+ 
  requirements.txt     # Python dependencies
+ 
  README.md            # Documentation
 
 
