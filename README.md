@@ -1,6 +1,6 @@
 # **Chocolate House Management System**
 
-####__The Chocolate House Management System is a Python-based web application designed to manage:__
+#### __The Chocolate House Management System is a Python-based web application designed to manage:__
 
 1. Seasonal Flavor Offerings
 2. Ingredient Inventory
@@ -43,14 +43,14 @@ Endpoint |	Method |	Description
 
 
 ## Project Structure
-.
-├── app.py               # Main application code
-├── instance/            # Contains SQLite database file
-├── templates/
-│   └── index.html       # Frontend HTML template
-├── Dockerfile           # Docker configuration file
-├── requirements.txt     # Python dependencies
-└── README.md            # Documentation
+
+ app.py               # Main application code
+ instance/            # Contains SQLite database file
+ templates/
+   index.html       # Frontend HTML template
+ Dockerfile           # Docker configuration file
+ requirements.txt     # Python dependencies
+ README.md            # Documentation
 
 
 ## Docker Setup
