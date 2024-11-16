@@ -1,45 +1,45 @@
-**Chocolate House Management System**
+# **Chocolate House Management System**
 
-__The Chocolate House Management System is a Python-based web application designed to manage:__
+####__The Chocolate House Management System is a Python-based web application designed to manage:__
 
 1. Seasonal Flavor Offerings
 2. Ingredient Inventory
 3. Customer Flavor Suggestions and Allergy Concerns
 This application leverages Flask for the backend, SQLite for data storage, and HTML for frontend. It is simple to use and helps streamline chocolate house operations.
 
-### Features
-# Seasonal Flavors
+## Features
+#### Seasonal Flavors
 - Add and view seasonal flavors.
 - Specify the season for seasonal flavors or mark them as year-round.
-# Ingredient Inventory
+#### Ingredient Inventory
 - Add ingredients with details like name, quantity, and unit.
 - Update ingredient quantities easily.
-# Customer Suggestions
+#### Customer Suggestions
 - Collect customer feedback and flavor suggestions.
 - Log potential allergens and additional notes provided by customers
 
-### Installation of Dependencies
+## Installation of Dependencies
 pip install -r requirements.txt
 
-### Run the Application
-## 1. Clone the Repository:
+## Run the Application
+#### 1. Clone the Repository:
   git clone <repository-url>
   cd <repository-directory>
-## 2. Set up the Database:
+#### 2. Set up the Database:
   python app.py
-## 3. Start the Application:
+#### 3. Start the Application:
   python app.py
-# Application will run at http://127.0.0.1:5000
+#### Application will run at http://127.0.0.1:5000
 
 
 ## API Endpoints
-Endpoint	Method	Description
-/api/flavors	GET	Retrieve all seasonal flavors.
-/api/flavors	POST	Add a new seasonal flavor.
-/api/inventory	GET	Retrieve inventory details.
-/api/inventory	POST	Add a new ingredient.
-/api/inventory/<id>	PUT	Update inventory details.
-/api/suggestions	POST	Submit a customer suggestion.
+Endpoint |	Method |	Description
+/api/flavors	| GET |	Retrieve all seasonal flavors.
+/api/flavors	| POST	| Add a new seasonal flavor.
+/api/inventory | GET	| Retrieve inventory details.
+/api/inventory	| POST |	Add a new ingredient.
+/api/inventory/<id>	| PUT |	Update inventory details.
+/api/suggestions	| POST |	Submit a customer suggestion.
 
 
 ## Project Structure
@@ -54,15 +54,15 @@ Endpoint	Method	Description
 
 
 ## Docker Setup
-# Build and Run the Application with Docker
+### Build and Run the Application with Docker
 Build the Docker Image:
 docker build -t chocolate-house .
 
-# Run the Docker Container:
+### Run the Docker Container:
 docker run -p 5000:5000 chocolate-house
 
 Access the Application: Open your browser and visit http://localhost:5000
 
-## Testing Instructions
+### Testing Instructions
 Endpoints can be checked with tools like POSTMAN.
 
